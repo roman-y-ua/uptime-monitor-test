@@ -1,0 +1,29 @@
+name: Website Uptime Monitor
+on:
+  schedule:
+    - cron: '*/10 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  issues: write
+
+jobs:
+  uptime-check:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Monitor websites
+        uses: cd-roman/uptime-monitor@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          sites: |
+            https://httpstat.us/200 
+            https://httpstat.us/404
+            https://httpstat.us/500
+            https://httpstat.us/200?sleep=5000
+            https://httpstat.us/200?sleep=16000
+          timezone: "Europe/Paris"
