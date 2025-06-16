@@ -27,4 +27,3 @@ jobs:
             https://httpstat.us/200?sleep=5000
             https://httpstat.us/200?sleep=16000
           timezone: "Europe/Paris"
-          log-file: "uptime-monitor.log"
