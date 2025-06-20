@@ -26,3 +26,4 @@ jobs:
             https://httpbin.org/status/500
             https://httpbin.org/delay/25
           timezone: "Europe/Paris"
+          timeout: "10"
