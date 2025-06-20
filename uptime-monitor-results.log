@@ -68,3 +68,9 @@
 [2025-06-20T17:34:48+02:00] https://httpbin.org/status/404 → Status: 404, Response: 1.014s
 [2025-06-20T17:34:48+02:00] https://httpbin.org/status/500 → Status: 500, Response: 3.000s
 [2025-06-20T17:34:48+02:00] https://httpbin.org/delay/25 → Status: 200, Response: 12.127s
+
+---
+[2025-06-20T17:38:32+02:00] https://httpbin.org/status/200 → Status: 200, Response: 0.964s
+[2025-06-20T17:38:32+02:00] https://httpbin.org/status/404 → Status: 404, Response: 0.719s
+[2025-06-20T17:38:32+02:00] https://httpbin.org/status/500 → Status: 500, Response: 0.495s
+[2025-06-20T17:38:32+02:00] https://httpbin.org/delay/15 → Status: 0, Response: 10.002s, Error: Timeout
