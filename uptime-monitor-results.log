@@ -62,3 +62,9 @@
 [2025-06-20T17:32:20+02:00] https://httpbin.org/status/404 → Status: 404, Response: 1.852s
 [2025-06-20T17:32:20+02:00] https://httpbin.org/status/500 → Status: 502, Response: 1.387s
 [2025-06-20T17:32:20+02:00] https://httpbin.org/delay/16 → Status: 200, Response: 12.537s
+
+---
+[2025-06-20T17:34:48+02:00] https://httpbin.org/status/200 → Status: 200, Response: 0.513s
+[2025-06-20T17:34:48+02:00] https://httpbin.org/status/404 → Status: 404, Response: 1.014s
+[2025-06-20T17:34:48+02:00] https://httpbin.org/status/500 → Status: 500, Response: 3.000s
+[2025-06-20T17:34:48+02:00] https://httpbin.org/delay/25 → Status: 200, Response: 12.127s
