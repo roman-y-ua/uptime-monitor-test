@@ -24,6 +24,6 @@ jobs:
             https://httpbin.org/status/200
             https://httpbin.org/status/404
             https://httpbin.org/status/500
-            https://httpbin.org/delay/25
+            https://httpbin.org/delay/15
           timezone: "Europe/Paris"
           timeout: "10"
